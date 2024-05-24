@@ -20,8 +20,10 @@ import Loop from './Loop';
 import Wheels from './Wheels';
 import Locks from './Locks';
 import Details from './Buy';
+import ContactForm from './Form';
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,6 +50,7 @@ root.render(
         <Route path="/Cantilever-Wheels" element={<Wheels />} />
         <Route path="/Locks-Latches" element={<Locks />} />
         <Route path="/Custom-Aluminum" element={<Details />} />
+        <Route path="/Contact-Us" element={<ContactForm />} />
       </Routes>
     </Router>
   </React.StrictMode>

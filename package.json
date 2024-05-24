@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@mantine/core": "^7.10.0",
+    "@mantine/form": "^7.10.0",
     "@mantine/hooks": "^7.10.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
