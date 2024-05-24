@@ -22,6 +22,7 @@ import Locks from './Locks';
 import Details from './Buy';
 import ContactForm from './Form';
 import '@mantine/core/styles.css';
+import {Link} from 'react-router-dom'
 import { createTheme, MantineProvider } from '@mantine/core';
 
 

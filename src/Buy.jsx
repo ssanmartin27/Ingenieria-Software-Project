@@ -5,6 +5,7 @@ import Navbar from './NavBar';
 import ReadMoreButton from './ReadMoreButton';
 import { BackgroundImage, Center, Title, Box,Text, Table, Grid, Card, Image, Group, SimpleGrid, Stack, Paper, Button} from '@mantine/core';
 import './styles/ModernBalconyRailings.css';
+import {Link} from 'react-router-dom'
 
 function Details() {
   const priceOptions = [
@@ -46,7 +47,7 @@ function Details() {
                   ))}
                 </Table.Tbody>
               </Table>
-                <Button component="a"
+                <Button component="Link"
       href="/Contact-Us">Contact Us</Button>
             </Stack>
           </SimpleGrid>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Options.css';
+import {Link} from 'react-router-dom'
 
 function OptionsComponent() {
   return (
