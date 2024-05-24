@@ -19,6 +19,7 @@ import Elite from './Elite';
 import Loop from './Loop';
 import Wheels from './Wheels';
 import Locks from './Locks';
+import Details from './Buy';
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 
@@ -46,6 +47,7 @@ root.render(
         <Route path="/Loop" element={<Loop />} />
         <Route path="/Cantilever-Wheels" element={<Wheels />} />
         <Route path="/Locks-Latches" element={<Locks />} />
+        <Route path="/Custom-Aluminum" element={<Details />} />
       </Routes>
     </Router>
   </React.StrictMode>
