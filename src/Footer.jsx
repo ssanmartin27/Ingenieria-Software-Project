@@ -17,19 +17,19 @@ function Footer() {
               <div className="row">
                 <div className="col-4">
                   <ul className="list-unstyled">
-                    <li><a href="#link1" className="text-dark">About Us</a></li>
-                    <li className="footer-link"><a href="#link2" className="text-dark">FAQ</a></li>
+                    <li><Link href="#link1" className="text-dark">About Us</Link></li>
+                    <li className="footer-link"><Link href="#link2" className="text-dark">FAQ</Link></li>
                   </ul>
                 </div>
                 <div className="col-4">
                   <ul className="list-unstyled">
-                    <li><a href="#link3" className="text-dark">Contact Us</a></li>
-                    <li className="footer-link"><a href="#link4" className="text-dark">Manufactures</a></li>
+                    <li><Link href="#link3" className="text-dark">Contact Us</Link></li>
+                    <li className="footer-link"><Link href="#link4" className="text-dark">Manufactures</Link></li>
                   </ul>
                 </div>
                 <div className="col-4">
                   <ul className="list-unstyled">
-                    <li><a href="#link5" className="text-dark" style={{textDecoration: 'none'}}>Our Policies</a></li>
+                    <li><Link href="#link5" className="text-dark" style={{textDecoration: 'none'}}>Our Policies</Link></li>
                   </ul>
                 </div>
               </div>

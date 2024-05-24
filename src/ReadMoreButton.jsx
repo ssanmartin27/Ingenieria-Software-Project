@@ -2,7 +2,7 @@ import React from 'react';
 
 function ReadMoreButton({title}) {
   return (
-    <a href='/Custom-Aluminum'>
+    <Link href='/Custom-Aluminum'>
     <button 
       
       className="btn btn-outline-dark rounded-3 fw-bold p-3 mt-4"
@@ -10,7 +10,7 @@ function ReadMoreButton({title}) {
     >
       {title}
     </button>
-    </a>
+    </Link>
   );
 }
 

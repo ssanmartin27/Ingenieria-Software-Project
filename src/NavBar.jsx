@@ -4,6 +4,7 @@ import OptionAutomationControl from './AutomationControl';
 import OptionsComponent from './Products';
 import OptionSecurity from './Security';
 import './styles/navbar.css';
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   const [isMenuOpenProducts, setIsMenuOpenProducts] = useState(false);
@@ -46,23 +47,23 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" style={{position:'fixed-top'}}>
       <div className="container-fluid">
-        <a style={{marginLeft: '40px'}} className="navbar-brand fs-3" href="/">GATESNFENCES</a>
+        <Link style={{marginLeft: '40px'}} className="navbar-brand fs-3" href="/">GATESNFENCES</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className={`nav-link ${isMenuOpenProducts ? 'active' : ''}`} href="#" onClick={toggleMenuProducts}>Products</a>
+              <Link className={`nav-link ${isMenuOpenProducts ? 'active' : ''}`} href="#" onClick={toggleMenuProducts}>Products</Link>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${isMenuOpenAutomation ? 'active' : ''}`} href="#" onClick={toggleMenuAutomation}>Automation and control</a>
+              <Link className={`nav-link ${isMenuOpenAutomation ? 'active' : ''}`} href="#" onClick={toggleMenuAutomation}>Automation and control</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={toggleMenuSecurity}>Security</a>
+              <Link className="nav-link" href="#" onClick={toggleMenuSecurity}>Security</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={toggleMenuAccesories}>Accessories</a>
+              <Link className="nav-link" href="#" onClick={toggleMenuAccesories}>Accessories</Link>
             </li>
           </ul>
         </div>

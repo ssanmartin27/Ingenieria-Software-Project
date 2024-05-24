@@ -38,7 +38,7 @@ root.render(
         <Route path="/ModernBalconyRailings" element={<ModernBalconyRailings />} />
         <Route path="/PlatinumGateOpeners" element={<PlatinumGateOpeners />} />
         <Route path="/OSCO" element={<Osco />} />
-        <Route path="/Allstar" element={<Allstar />} />
+        <Route path="/Allstar" element={<Linkllstar />} />
         <Route path="/SEA" element={<Sea />} />
         <Route path="/Multi-Code" element={<Remote />} />
         <Route path="/Long-Range" element={<Long />} />
