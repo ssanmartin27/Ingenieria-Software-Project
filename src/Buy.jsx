@@ -48,7 +48,7 @@ function Details() {
                 </Table.Tbody>
               </Table>
                 <Button component="Link"
-      href="/Contact-Us">Contact Us</Button>
+      to="/Contact-Us">Contact Us</Button>
             </Stack>
           </SimpleGrid>
       </header>

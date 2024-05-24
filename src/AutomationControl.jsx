@@ -7,64 +7,64 @@ function OptionAutomationControl() {
     <div>
       <div style={{ display: 'flex', marginBottom: '20px' }}>
         <div style={{ marginLeft: '4rem', display: 'flex', flexDirection: 'column' }}>
-          <Link style={{ fontWeight: 'bold', color: 'black' }} href='#'>Openers - Operators</Link>
+          <Link style={{ fontWeight: 'bold', color: 'black' }} to='#'>Openers - Operators</Link>
           <div style={{ display: 'flex' }}>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <Link style={{ color: 'grey' }} href=''>Ramset</Link>
-              <Link style={{ color: 'grey' }} href='#'>FAAC</Link>
-              <Link style={{ color: 'grey' }} href='#'>Apollo</Link>
-              <Link style={{ color: 'grey' }} href='#'>BFT</Link>
-              <Link style={{ color: 'grey' }} href='#'>Power Master</Link>
-              <Link style={{ color: 'grey' }} href='/PlatinumGateOpeners'>Platinium Gate Openers</Link>
-              <Link style={{ color: 'grey' }} href='/LiftMaster'>Liftmaster</Link>
-              <Link style={{ color: 'grey' }} href='#'>Elite</Link>
-              <Link style={{ color: 'grey' }} href='#'>Doorking</Link>
+              <Link style={{ color: 'grey' }} to=''>Ramset</Link>
+              <Link style={{ color: 'grey' }} to='#'>FAAC</Link>
+              <Link style={{ color: 'grey' }} to='#'>Apollo</Link>
+              <Link style={{ color: 'grey' }} to='#'>BFT</Link>
+              <Link style={{ color: 'grey' }} to='#'>Power Master</Link>
+              <Link style={{ color: 'grey' }} to='/PlatinumGateOpeners'>Platinium Gate Openers</Link>
+              <Link style={{ color: 'grey' }} to='/LiftMaster'>Liftmaster</Link>
+              <Link style={{ color: 'grey' }} to='#'>Elite</Link>
+              <Link style={{ color: 'grey' }} to='#'>Doorking</Link>
             </div>
             <div style={{ marginLeft: '4rem', display: 'flex', flexDirection: 'column' }}>
-              <Link style={{ color: 'grey' }} href='/OSCO'>OSCO</Link>
-              <Link style={{ color: 'grey' }} href='/Allstar'>Allstar</Link>
-              <Link style={{ color: 'grey' }} href='#'>Viking</Link>
-              <Link style={{ color: 'grey' }} href='#'>Eagle</Link>
-              <Link style={{ color: 'grey' }} href='/SEA'>SEA</Link>
-              <Link style={{ color: 'grey' }} href='#'>Hysecurity</Link>
+              <Link style={{ color: 'grey' }} to='/OSCO'>OSCO</Link>
+              <Link style={{ color: 'grey' }} to='/Allstar'>Allstar</Link>
+              <Link style={{ color: 'grey' }} to='#'>Viking</Link>
+              <Link style={{ color: 'grey' }} to='#'>Eagle</Link>
+              <Link style={{ color: 'grey' }} to='/SEA'>SEA</Link>
+              <Link style={{ color: 'grey' }} to='#'>Hysecurity</Link>
             </div>
           </div>
 
 
         </div>
         <div style={{ marginLeft: '8rem', display: 'flex', flexDirection: 'column' }}>
-          <Link style={{ fontWeight: 'bold', color: 'black' }} href='#'>Remote Controls</Link>
-          <Link style={{ color: 'grey' }} href='/Multi-Code'>Multi-Code</Link>
-          <Link style={{ color: 'grey' }} href='#'>Transmitter Solutions</Link>
-          <Link style={{ color: 'grey' }} href='#'>Transmitter Solutions</Link>
-          <Link style={{ color: 'grey' }} href='#'>Linear</Link>
-          <Link style={{ color: 'grey' }} href='/LiftMaster'>LiftMaster</Link>
-          <Link style={{ color: 'grey' }} href='#'>Doorking</Link>
-          <Link style={{ color: 'grey' }} href='#'>Keyston - Heddolf</Link>
-          <Link style={{ color: 'grey' }} href='#'>BFT - SEA - FAAC</Link>
-          <Link style={{ color: 'grey' }} href='/Long-Range'>Long Range</Link>
+          <Link style={{ fontWeight: 'bold', color: 'black' }} to='#'>Remote Controls</Link>
+          <Link style={{ color: 'grey' }} to='/Multi-Code'>Multi-Code</Link>
+          <Link style={{ color: 'grey' }} to='#'>Transmitter Solutions</Link>
+          <Link style={{ color: 'grey' }} to='#'>Transmitter Solutions</Link>
+          <Link style={{ color: 'grey' }} to='#'>Linear</Link>
+          <Link style={{ color: 'grey' }} to='/LiftMaster'>LiftMaster</Link>
+          <Link style={{ color: 'grey' }} to='#'>Doorking</Link>
+          <Link style={{ color: 'grey' }} to='#'>Keyston - Heddolf</Link>
+          <Link style={{ color: 'grey' }} to='#'>BFT - SEA - FAAC</Link>
+          <Link style={{ color: 'grey' }} to='/Long-Range'>Long Range</Link>
         </div>
         <div style={{ display: 'flex' }}>
           <div style={{ marginLeft: '8rem', display: 'flex', flexDirection: 'column' }}>
-            <Link style={{ fontWeight: 'bold', color: 'black' }} href='#'>Receivers</Link>
-            <Link style={{ color: 'grey' }} href='#'>Linear/Multi-Code</Link>
-            <Link style={{ color: 'grey' }} href='/Receivers'>Doorking</Link>
-            <Link style={{ color: 'grey' }} href='/LiftMaster'>LiftMaster</Link>
-            <Link style={{ color: 'grey' }} href='#'>Keystone/Heddolf</Link>
-            <Link style={{ color: 'grey' }} href='/Long-Range'>Long Range</Link>
+            <Link style={{ fontWeight: 'bold', color: 'black' }} to='#'>Receivers</Link>
+            <Link style={{ color: 'grey' }} to='#'>Linear/Multi-Code</Link>
+            <Link style={{ color: 'grey' }} to='/Receivers'>Doorking</Link>
+            <Link style={{ color: 'grey' }} to='/LiftMaster'>LiftMaster</Link>
+            <Link style={{ color: 'grey' }} to='#'>Keystone/Heddolf</Link>
+            <Link style={{ color: 'grey' }} to='/Long-Range'>Long Range</Link>
           </div>
           <div style={{ marginLeft: '8rem', display: 'flex', flexDirection: 'column' }}>
-            <Link style={{ fontWeight: 'bold', color: 'black' }} href='#'>Telephone Entry</Link>
-            <Link style={{ color: 'grey' }} href='#'>Select Engineering</Link>
-            <Link style={{ color: 'grey' }} href='#'>Doorking</Link>
-            <Link style={{ color: 'grey' }} href='#'>LiftMaster</Link>
-            <Link style={{ color: 'grey' }} href='/Sentex'>Sentex</Link>
-            <Link style={{ color: 'grey' }} href='/Elite'>Elite</Link>
-            <Link style={{ color: 'grey' }} href='#'>Linear</Link>
-            <Link style={{ color: 'grey' }} href='#'>Readers</Link>
-            <Link style={{ color: 'grey' }} href='#'>Keypads</Link>
-            <Link style={{ color: 'grey' }} href='#'>IP Voice over Internet</Link>
-            <Link style={{ color: 'grey' }} href='#'>American Access System</Link>
+            <Link style={{ fontWeight: 'bold', color: 'black' }} to='#'>Telephone Entry</Link>
+            <Link style={{ color: 'grey' }} to='#'>Select Engineering</Link>
+            <Link style={{ color: 'grey' }} to='#'>Doorking</Link>
+            <Link style={{ color: 'grey' }} to='#'>LiftMaster</Link>
+            <Link style={{ color: 'grey' }} to='/Sentex'>Sentex</Link>
+            <Link style={{ color: 'grey' }} to='/Elite'>Elite</Link>
+            <Link style={{ color: 'grey' }} to='#'>Linear</Link>
+            <Link style={{ color: 'grey' }} to='#'>Readers</Link>
+            <Link style={{ color: 'grey' }} to='#'>Keypads</Link>
+            <Link style={{ color: 'grey' }} to='#'>IP Voice over Internet</Link>
+            <Link style={{ color: 'grey' }} to='#'>American Access System</Link>
           </div>
         </div>
       </div>

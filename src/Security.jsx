@@ -6,10 +6,10 @@ function OptionSecurity() {
     return (
         <div>
             <div style={{ marginLeft: '4rem', display: 'flex', flexDirection: 'column'}}>
-                    <Link style={{ fontWeight: 'bold', color: 'black' }} href='#'>Safety Equipment</Link>
-                    <Link style={{ color: 'grey' }} href='#'>Safety Loops</Link>
-                    <Link style={{ color: 'grey' }} href='/Loop'>Loop Detector</Link>
-                    <Link style={{ color: 'grey' }} href='#'>Safety Photo Cell</Link>
+                    <Link style={{ fontWeight: 'bold', color: 'black' }} to='#'>Safety Equipment</Link>
+                    <Link style={{ color: 'grey' }} to='#'>Safety Loops</Link>
+                    <Link style={{ color: 'grey' }} to='/Loop'>Loop Detector</Link>
+                    <Link style={{ color: 'grey' }} to='#'>Safety Photo Cell</Link>
                 </div>
         </div>
     );
