@@ -13,7 +13,7 @@ function OptionsComponent() {
         </div>
         <div style={{ marginLeft: '12.4rem', display: 'flex', flexDirection: 'column'}}>
           <a style={{ fontWeight: 'bold', color: 'black' }} href='#'>Fencing</a>
-          <a style={{ color: 'grey' }} href='#'>Fencing of Great World</a>
+          <a style={{ color: 'grey' }} href='/Fencing'>Fencing of Great World</a>
         </div>
       </div>
       <div style={{ display: 'flex'}}>
@@ -24,7 +24,7 @@ function OptionsComponent() {
         </div>
         <div style={{ marginLeft: '13rem', display: 'flex', flexDirection: 'column'}}>
           <a style={{ fontWeight: 'bold', color: 'black' }} href='#'>Railings</a>
-          <a style={{ color: 'grey' }} href='#'>Modern Balcony Railings</a>
+          <a style={{ color: 'grey' }} href='/ModernBalconyRailings'>Modern Balcony Railings</a>
         </div>
       </div>
     </div>
