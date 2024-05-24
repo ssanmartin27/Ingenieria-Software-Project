@@ -58,7 +58,7 @@ function OptionAutomationControl() {
             <a style={{ color: 'grey' }} href='#'>Doorking</a>
             <a style={{ color: 'grey' }} href='#'>LiftMaster</a>
             <a style={{ color: 'grey' }} href='/Sentex'>Sentex</a>
-            <a style={{ color: 'grey' }} href='#'>Elite</a>
+            <a style={{ color: 'grey' }} href='/Elite'>Elite</a>
             <a style={{ color: 'grey' }} href='#'>Linear</a>
             <a style={{ color: 'grey' }} href='#'>Readers</a>
             <a style={{ color: 'grey' }} href='#'>Keypads</a>

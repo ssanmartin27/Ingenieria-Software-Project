@@ -15,6 +15,10 @@ import Long from './Long';
 import Receiver from './Receiver'
 import LiftMaster from './LiftMaster';
 import Sentex from './Sentex';
+import Elite from './Elite';
+import Loop from './Loop';
+import Wheels from './Wheels';
+import Locks from './Locks';
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 
@@ -38,6 +42,10 @@ root.render(
         <Route path="/Receivers" element={<Receiver />} />
         <Route path="/LiftMaster" element={<LiftMaster />} />
         <Route path="/Sentex" element={<Sentex />} />
+        <Route path="/Elite" element={<Elite />} />
+        <Route path="/Loop" element={<Loop />} />
+        <Route path="/Cantilever-Wheels" element={<Wheels />} />
+        <Route path="/Locks-Latches" element={<Locks />} />
       </Routes>
     </Router>
   </React.StrictMode>

@@ -6,34 +6,40 @@ import ReadMoreButton from './ReadMoreButton';
 import { BackgroundImage, Center, Title, Box, Text, Grid, GridCol, Card, Image, Group, SimpleGrid, Stack, Paper} from '@mantine/core';
 import './styles/ModernBalconyRailings.css';
 
-function PlatinumGateOpeners() {
+function Locks() {
     return (
         <div className="App">
       <Navbar />
       <header className="App-header" style={{ marginTop: '100px' }}>
-      <h1 className='head'> Platinum Gate Openers </h1>
+      <h1 className='head'> Locks - Latches </h1>
     
       <Center>
-      <Text className='text-secondary'fz={20} maw={800} style={{ marginTop: 5, marginBottom:0 }}>Platinum Access Systems is proud to offer the "New Generation" of gate openers, the
-perfect choice for both residential and commercial applications. Our innovative systems are
-designed to provide exceptional performance, safety, and reliability for your gated entrance.</Text>
+      <Text className='text-secondary'fz={20} maw={800} style={{ marginTop: 5, marginBottom:0 }}>We offer a wide selection of gate hardware and supplies for all your driveway gates, garden
+gates, fences, or pool railings. L.A. Ornamental & Rack Corp offers gate hardware and
+supplies like guide roller, latches, hinges, gate timers, magnetic latches,v-groove wheels,
+and more.</Text>
      </Center>
      
-     <h2 className='head'>Our merchandise consists of</h2>
+     <h2 className='head'>Browse through our selection of hardware or supplies for all
+your fence needs</h2>
      
     <SimpleGrid cols={2} spacing="xl" verticalSpacing="lg" mx={{ base: 10, sm: 100, lg: 280 }}>
      
      <Paper shadow="xs" p={0} radius="md">
      <Group h="100%" justify="center" mx="20px" grow>    
         <Image
-          src="/opener1.png"
+          src="/locks1.png"
           height={200}
           alt="Balcony"
         />
       <Stack justify='center' gap="xs" my="lg" >
-      <h4 className='headish'>The BLSL840</h4>
+      <h4 className='headish'>Zinc Plated Gravety Gate
+Latch
+</h4>
       <Text className='text-secondary' style={{ marginTop: 0, marginBottom:0 }} fz={20}>
-      With its ultra-quiet high torque brushless DC motor is the first choice for light slide gate applications. 
+      For use on gates and doors
+where a self-latching
+action is desired.
       </Text>
       </Stack>
       </Group>
@@ -42,14 +48,18 @@ designed to provide exceptional performance, safety, and reliability for your ga
     <Paper shadow="xs" p={0} radius="md">
      <Group h="100%" justify="center" mx="20px"  grow>    
         <Image
-          src="/opener2.png"
+          src="/locks2.png"
           height={200}
           alt="Balcony"
         />
       <Stack justify='center' gap="xs" my="lg" >
-      <h4 className='headish'>The BLSL2250</h4>
+      <h4 className='headish'>White or Black Gravety Gate
+Latch Regular Steel Powder
+Coated</h4>
       <Text className='text-secondary' style={{ marginTop: 0, marginBottom:0 }} fz={20}>
-      With its ultra-quiet high torque brushless DC motor is the first choice for medium slide gate applications.  
+      For use on gates and doors
+where a self-latching action
+is desired. 
       </Text>
       </Stack>
       </Group>
@@ -58,17 +68,18 @@ designed to provide exceptional performance, safety, and reliability for your ga
     <Paper shadow="xs" p={0} radius="md">
      <Group h="100%" justify="center" mx="20px"  grow>    
         <Image
-          src="/opener3.png"
+          src="/locks3.png"
           height={200}
           alt="Balcony"
         />
       <Stack justify='center' gap="xs" my="lg" >
-      <h4 className='headish'>The BLSL3060</h4>
+      <h4 className='headish'>Stainless Steel Gravety
+Pool Gate Latch, Auto Gate
+Latch</h4>
       <Text className='text-secondary' style={{ marginTop: 0, marginBottom:0 }} fz={20}>
-      With its ultra-quiet high
-torque brushless DC motor
-is the first choice for heavy
-slide gate applications.    
+      For use on gates and doors
+where a self-latching
+action is desired.   
       </Text>
       </Stack>
       </Group>
@@ -77,17 +88,18 @@ slide gate applications.
     <Paper shadow="xs" p={0} radius="md">
      <Group h="100%" justify="center" mx="20px"  grow>    
         <Image
-          src="/opener4.png"
+          src="/locks4.png"
           height={200}
           alt="Balcony"
         />
       <Stack justify='center' gap="xs" my="lg" >
-      <h4 className='headish'>The BLSW814</h4>
+      <h4 className='headish'>Steel Slide Bolt Latch with
+Screws</h4>
       <Text className='text-secondary' style={{ marginTop: 0, marginBottom:0 }} fz={20}>
-      With its ultra-quiet high
-torque brushless DC motor is
-the first choice for light
-swing gate applications.   
+      Easy operating, handle
+serves as a pull. Latches
+right or left. May be
+padlocked.  
       </Text>
       </Stack>
       </Group>
@@ -96,18 +108,22 @@ swing gate applications.
     <Paper shadow="xs" p={0} radius="md">
      <Group h="100%" justify="center" mx="20px"  grow>    
         <Image
-          src="/opener5.png"
+          src="/locks5.png"
           height={200}
           alt="Balcony"
         />
       <Stack justify='center' gap="xs" my="lg" >
-      <h4 className='headish'>The BLSW1016</h4>
+      <h4 className='headish'>Pool Code Gate Magnetic
+Latch Safety Long Pull</h4>
       <Text className='text-secondary' style={{ marginTop: 0, marginBottom:0 }} fz={20}>
-      with its ultra-quiet high
-torque brushless DC motor
-is the first choice for
-medium swing gate
-applications.   
+      Magnetic Latch for safety
+gate latches are a
+revolutionary breakthrough
+in latching security for
+most gates around
+swimming pools, homes
+and other child safety
+areas (childcare centers).
       </Text>
       </Stack>
       </Group>
@@ -116,17 +132,18 @@ applications.
     <Paper shadow="xs" p={0} radius="md">
      <Group h="100%" justify="center" mx="20px"  grow>    
         <Image
-          src="/opener6.png"
+          src="/locks6.png"
           height={200}
           alt="Balcony"
         />
       <Stack justify='center' gap="xs" my="lg" >
-      <h4 className='headish'>The BLSW2212</h4>
+      <h4 className='headish'>Pool Code Gate Magnetic
+Safety Latch -- Short</h4>
       <Text className='text-secondary' style={{ marginTop: 0, marginBottom:0 }} fz={20}>
-      With its ultra-quiet high
-torque brushless DC motor is
-the first choice for light
-swing gate applications. 
+      All latches adapt readily to
+most new or existing gates
+of any material metal, wood
+or vinyl. 
       </Text>
       </Stack>
       </Group>
@@ -140,4 +157,4 @@ swing gate applications.
     );
 }
 
-export default PlatinumGateOpeners
+export default Locks
